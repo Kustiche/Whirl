@@ -12,13 +12,11 @@ html {
   margin: 0 auto;
   padding-bottom: 80px;
   max-width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .automation-wrap {
-  width: 1130px;
+  margin: 0 auto;
+  max-width: 1130px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -87,8 +85,7 @@ html {
 
 .companies {
   width: 100%;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding: 80px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -115,4 +112,56 @@ html {
 
 .description {
   padding-top: 80px;
+}
+
+.description-wrap {
+  margin: 0 auto;
+  max-width: 1130px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.description-card-lightning {
+  padding: 30px 30px 40px 30px;
+  max-width: 355px;
+  background-color: #FAEA73;
+}
+
+.description-card-banknote {
+  padding: 30px 30px 40px 30px;
+  max-width: 355px;
+  background-color: #CCEFF6;
+}
+
+.description-card-hand {
+  padding: 30px 30px 40px 30px;
+  max-width: 355px;
+  background-color: #F7CEDC;
+}
+
+.description-image {
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+
+.description-title {
+  margin: 0;
+  margin-bottom: 10px;
+  font-family: "Fraunces", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 31px;
+  letter-spacing: 0.2px;
+  color: #1F1F1F;
+}
+
+.description-text {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #1F1F1F;
 }/*# sourceMappingURL=style.css.map */
